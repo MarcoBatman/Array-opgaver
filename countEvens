@@ -1,0 +1,11 @@
+public int countEvens(int[] nums) {
+  int antal = 0;
+  
+for(int i=0;i < nums.length;i++){
+    boolean lige = nums[i] % 2==0;
+    if(lige){antal++;
+    }
+   
+  }
+  return(antal);
+}
