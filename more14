@@ -1,0 +1,16 @@
+public boolean more14(int[] nums) {
+  int antal1 =0;
+  int antal4 =0;
+  for(int i =0;i<nums.length;i++){
+    if(nums[i]==1){
+      antal1++;
+    }
+    if(nums[i]==4){
+      antal4++;
+    }
+  }
+  if(antal1>antal4){
+    return true;
+  }
+  return false;
+  }
